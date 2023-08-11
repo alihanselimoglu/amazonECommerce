@@ -1,6 +1,5 @@
-import { useEffect, useReducer, useState } from 'react';
+import { useEffect, useReducer } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product';
