@@ -48,3 +48,7 @@ main {
 .product-info {
   padding: 1rem;
 }
+
+.img-large {
+  min-width: 100%;
+}

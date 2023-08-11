@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product';
+import { Helmet } from 'react-helmet-async';
 
 // import data from '../data';
 
@@ -43,6 +44,9 @@ const HomeScreen = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Amazona</title>
+      </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
